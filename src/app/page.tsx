@@ -10,7 +10,7 @@ const ThemeContext = createContext({ theme: 'dark', toggleTheme: () => {} });
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   useEffect(() => {
     setMounted(true);
@@ -238,20 +238,42 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 text-blue-700 dark:text-blue-400">
             Professional Summary
           </h2>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Collected and curated over 1 million economic data records covering
+            micro, macro, sectoral, and regional indicators, forming a core
+            asset that enables Vietstats to provide comprehensive and reliable
+            datasets.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Automated data workflows with Python, Excel, and Google Apps Script
+            to collect and clean large economic datasets, cutting processing
+            time by 50% and boosting efficiency.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Designed scalable data processing procedures and standardized input
+            templates to optimize data collection while ensuring long-term data
+            consistency and accuracy.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Built interactive dashboards to analyze the performance of 27 banks,
+            and created industry-level overview dashboards by aggregating
+            financial data from publicly listed companies on the HNX and HOSE
+            stock exchanges, providing strategic insights for Vietstats’ B2B
+            clients.
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Conduct web traffic analysis (GA4), provide performance overview of
+            each stages (acquisition, engagement, conversion).
+          </p>
+          <p className="text-gray-700 dark:text-gray-300 mb-2">
+            Building engagement and retention (cohort) framework, and planning
+            on digital channel (google, facebook, email) to tap on the
+            touchpoints.
+          </p>
           <p className="text-gray-700 dark:text-gray-300 mb-4">
-            Results-driven Data Analyst with over one year of experience at
-            Vietstate Economic Data Analytics and Policy Strategy Consulting
-            Co., Ltd., specializing in developing and automating high-scale
-            economic data processing workflows. Proficient in Python, Excel, and
-            Google Apps Script, with a proven track record of reducing data
-            processing time by 90% and enhancing operational efficiency. Adept
-            at designing scalable data procedures and interactive dashboards to
-            deliver actionable insights. Holds a Bachelor’s degree in Economic
-            Mathematics from the University of Economics and Law, Vietnam
-            National University HCMC, with a GPA of 3.3/4.0, equipping strong
-            quantitative analysis and problem-solving skills. Passionate about
-            leveraging data-driven solutions to support strategic
-            decision-making and drive business success.
+            Authored analytical reports on key sectors, offering policy insights
+            and development strategies for government and business
+            decision-making.
           </p>
 
           <p className="text-gray-500 dark:text-gray-100">
