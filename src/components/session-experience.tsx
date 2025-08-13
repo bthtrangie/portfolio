@@ -65,7 +65,9 @@ function ExperienceSection() {
           </div>
           <ul className="list-disc ml-6 text-gray-700 dark:text-gray-300 text-sm space-y-1 mb-2 mt-2">
             {exp.desc.map((i, descIndex) => (
-              <li key={descIndex}>{i}</li>
+              <li key={descIndex} className="text-md">
+                {i}
+              </li>
             ))}
           </ul>
         </div>
