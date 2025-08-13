@@ -45,6 +45,23 @@ function SessionProjects() {
                 </li>
               </ul>
             </div>
+
+            <div className="mt-4 rounded-sm overflow-hidden">
+              <embed
+                src="/Project Báo cáo tài chính doanh nghiệp.pdf"
+                width="100%"
+                height="800px"
+              ></embed>
+            </div>
+            <div className="flex justify-center mt-5">
+              <a
+                href="/BÙI THỊ HUYỀN TRANG-hcm.pdf"
+                download
+                className="inline-block px-4 py-2 rounded-md bg-gradient-to-r from-blue-400 to-purple-400 dark:from-blue-500 dark:to-purple-500 text-white font-semibold shadow-lg hover:scale-105 transition-transform"
+              >
+                Download Report Now!
+              </a>
+            </div>
           </div>
         </li>
       </ul>
