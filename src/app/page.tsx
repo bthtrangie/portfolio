@@ -10,7 +10,7 @@ const ThemeContext = createContext({ theme: 'dark', toggleTheme: () => {} });
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     setMounted(true);
@@ -223,7 +223,7 @@ export default function Home() {
               </h3>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-4">
                 <a
-                  href="/BÙI THỊ HUYỀN TRANG-hcm.pdf"
+                  href="/Bui-Thi-Huyen-Trang-CV.pdf"
                   download
                   className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-blue-400 to-purple-400 dark:from-blue-500 dark:to-purple-500 text-white font-semibold shadow-lg hover:scale-105 transition-transform"
                 >

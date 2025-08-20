@@ -55,7 +55,7 @@ function SessionProjects() {
             </div>
             <div className="flex justify-center mt-5">
               <a
-                href="/BÙI THỊ HUYỀN TRANG-hcm.pdf"
+                href="/Financial-Statement-by-Bui-Thi-Huyen-Trang.pdf"
                 download
                 className="inline-block px-4 py-2 rounded-md bg-gradient-to-r from-blue-400 to-purple-400 dark:from-blue-500 dark:to-purple-500 text-white font-semibold shadow-lg hover:scale-105 transition-transform"
               >
