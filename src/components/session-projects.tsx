@@ -48,7 +48,7 @@ function SessionProjects() {
 
             <div className="mt-4 rounded-sm overflow-hidden">
               <embed
-                src="/Project Báo cáo tài chính doanh nghiệp.pdf"
+                src="/Financial-Statement-by-Bui-Thi-Huyen-Trang.pdf"
                 width="100%"
                 height="800px"
               ></embed>
