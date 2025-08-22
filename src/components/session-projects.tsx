@@ -18,7 +18,7 @@ function SessionProjects() {
   }, []);
 
   return (
-    <section className="py-12 max-w-5xl mx-auto">
+    <section className=" max-w-5xl mx-auto">
       <ul className="space-y-8">
         <li className="bg-white dark:bg-gray-800/90 rounded-2xl shadow-lg p-6 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div className="">

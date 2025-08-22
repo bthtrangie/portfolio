@@ -4,6 +4,7 @@ import AnimatedBackground from '@/components/background-animation';
 import React, { useEffect, useState, createContext } from 'react';
 import SessionProjects from '@/components/session-projects';
 import ExperienceSection from '@/components/session-experience';
+import SessionArticles from '@/components/session-articles';
 
 const ThemeContext = createContext({ theme: 'dark', toggleTheme: () => {} });
 
@@ -173,6 +174,20 @@ export default function Home() {
                   }}
                 >
                   Education
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-black/80 dark:text-white/80 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-200"
+                  href="#education"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
+                      .querySelector('#articles')
+                      ?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  My Published Articles
                 </a>
               </li>
             </ul>
@@ -396,6 +411,13 @@ export default function Home() {
             Personal Project
           </h2>
           <SessionProjects />
+        </section>
+        {/* ARTICLES SECTION */}
+        <section id="articles" className="py-12 max-w-5xl mx-auto w-full px-4">
+          <h2 className="text-2xl font-bold mb-4 text-blue-700 dark:text-blue-400">
+            My Published Articles
+          </h2>
+          <SessionArticles />
         </section>
       </main>
       <AnimatedBackground />
