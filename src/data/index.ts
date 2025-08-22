@@ -1,10 +1,18 @@
 export const articles = [
   {
-    id: 6,
-    link: 'https://thesaigontimes.vn/nganh-duoc-nang-cap-tieu-chuan-tim-duong-ra-the-gioi/',
-    img: '/images/6.jpg',
-    date: '09-07-2025',
-    name: 'Ngành dược nâng cấp tiêu chuẩn, tìm đường ra thế giới',
+    id: 18,
+    link: 'https://vietstats.vn/con-so-biet-noi/thi-truong-trung-tam-du-lieu-viet-nam-tiem-nang-ti-do-va-thach-thuc-phat-trien/?id=0a905299-f6fe-41d1-8335-6333bfe3cb6e',
+    img: '/images/18.jpg',
+    date: '14-07-2025',
+    name: 'Thị trường Trung tâm Dữ liệu Việt Nam: Tiềm năng Tỉ Đô và Thách thức Phát triển',
+  },
+
+  {
+    id: 21,
+    link: 'https://vietstats.vn/con-so-biet-noi/80-nam-anh-lua-cach-mang-dau-an-250-du-an-voi-tong-von-128-trieu-ty-dong-lam-nen-ky-tich/?id=ceccc4e4-d848-462a-8cee-c2134840a03c',
+    img: '/images/21.jpg',
+    date: '20-08-2025',
+    name: '80 năm ánh lửa Cách mạng: Dấu ấn 250 dự án với tổng vốn 1,28 triệu tỉ đồng làm nên kỳ tích',
   },
   {
     id: 0,
@@ -19,6 +27,13 @@ export const articles = [
     img: '/images/20.png',
     date: '12-07-2025',
     name: 'The economic potential of provinces after merger unlocks new space and momentum',
+  },
+  {
+    id: 6,
+    link: 'https://thesaigontimes.vn/nganh-duoc-nang-cap-tieu-chuan-tim-duong-ra-the-gioi/',
+    img: '/images/6.jpg',
+    date: '09-07-2025',
+    name: 'Ngành dược nâng cấp tiêu chuẩn, tìm đường ra thế giới',
   },
   {
     id: 1,
@@ -133,13 +148,7 @@ export const articles = [
     date: '28-04-2025',
     name: "Vượt mặt ông lớn, MBBank trở thành 'ngôi sao sáng' lợi nhuận sau thuế quý I/2025",
   },
-  {
-    id: 18,
-    link: 'https://vietstats.vn/con-so-biet-noi/thi-truong-trung-tam-du-lieu-viet-nam-tiem-nang-ti-do-va-thach-thuc-phat-trien/?id=0a905299-f6fe-41d1-8335-6333bfe3cb6e',
-    img: '/images/18.jpg',
-    date: '14-07-2025',
-    name: 'Thị trường Trung tâm Dữ liệu Việt Nam: Tiềm năng Tỉ Đô và Thách thức Phát triển',
-  },
+
   {
     id: 19,
     link: 'https://vietstats.vn/con-so-biet-noi/nganh-hang-tien-loi-tai-viet-nam-canh-tranh-dan-dinh-hinh-tang-truong-phan-hoa-ro-ret/?id=269a3262-6ada-4cbf-a77c-39c0a57f3020',
@@ -147,12 +156,11 @@ export const articles = [
     date: '13-05-2025',
     name: 'Ngành hàng tiện lợi tại Việt Nam: Cạnh tranh dần định hình, tăng trưởng phân hóa rõ rệt',
   },
-
-  //   {
-  //     id: 21,
-  //     link: 'https://vietstats.vn/con-so-biet-noi/nganh-hang-tien-loi-tai-viet-nam-canh-tranh-dan-dinh-hinh-tang-truong-phan-hoa-ro-ret/?id=269a3262-6ada-4cbf-a77c-39c0a57f3020',
-  //     img: '/images/19.jpg',
-  //     date: '13-05-2025',
-  //     name: 'Ngành hàng tiện lợi tại Việt Nam: Cạnh tranh dần định hình, tăng trưởng phân hóa rõ rệt',
-  //   },
+  {
+    id: 22,
+    link: 'https://vietstats.vn/con-so-biet-noi/tinh-hinh-an-ninh-mang-viet-nam-6-thang-dau-nam-2025-bao-dong-do-ve-ro-ri-du-lieu-thong-tin-ca-nhan/?id=5748f358-447c-4643-941b-8fc2d0d1923a',
+    img: '/images/22.jpg',
+    date: '18-08-2025',
+    name: 'Tình hình an ninh mạng Việt Nam 6 tháng đầu năm 2025: Báo động đỏ về rò rỉ dữ liệu thông tin cá nhân',
+  },
 ];
